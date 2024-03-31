@@ -1,0 +1,55 @@
+<!-- this is navbar section -->
+{% load static %}
+<nav
+  class="navbar py-0 sticky-top navbar-expand-lg navbar-light bg-success bg-gradient rounded"
+>
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav p-0 ms-auto fs-6 fw-bold align-items-center">
+        <li class="nav-item">
+          <a class="nav-link text-white"  "{% if request.path == '/' %} active bg-dark {% endif %}"  aria-current="page" href="/"
+            >Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" "{% if request.path == '/services' %} active  {% endif %}" aria-current="page" href="/services"
+            >Services</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white"  "{% if request.path == '/ourstores' %} active  {% endif %}" aria-current="page" href="/ourstores"
+            >Our Branches</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" "{% if request.path == '/contact' %} active  {% endif %}" aria-current="page" href="/contact"
+            >Contact Us</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" "{% if request.path == '/about' %} active  {% endif %}" aria-current="page" href="/about"
+            >About us</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" aria-current="page" href="#"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<marquee
+  class="text-danger fs-5"
+  scrollamount="15"
+  behavior="scroll"
+  direction="left"
+  ><p>
+    <strong>
+      Welcome to Medicare Medicals Store, your trusted online destination for
+      all your healthcare and medical supply needs.</strong
+    >
+  </p></marquee
+>

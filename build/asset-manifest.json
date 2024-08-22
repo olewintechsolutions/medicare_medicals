@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8166296.css",
+    "main.js": "/static/js/main.f8672898.js",
+    "static/media/direct-contact.jpg": "/static/media/direct-contact.74e708abca2c0083f483.jpg",
+    "static/media/softwareimg.png": "/static/media/softwareimg.84f19f16e6dfe9670a27.png",
+    "static/media/doctor-software.png": "/static/media/doctor-software.124c3af79d0cf1ec8a28.png",
+    "static/media/medicines1.png": "/static/media/medicines1.446c9c63910b64748e80.png",
+    "static/media/mcm.png": "/static/media/mcm.afb43ad85394282e12c7.png",
+    "static/media/medicallogo.jpg": "/static/media/medicallogo.c2edfb5e923df500d8d8.jpg",
+    "static/media/logo1.jpg": "/static/media/logo1.88cc01e997fb52256b4a.jpg",
+    "static/media/Syringe-needle.jpg": "/static/media/Syringe-needle.a859a468fcb0b392e016.jpg",
+    "static/media/CAPSULE.jpg": "/static/media/CAPSULE.c2d8314f8f2c4fabb4f4.jpg",
+    "static/media/Doctors.jpg": "/static/media/Doctors.77cdbbd724d0fb0212a1.jpg",
+    "static/media/consult-min.jpg": "/static/media/consult-min.27eba8f8729ca7e54a56.jpg",
+    "static/media/png-transparent-medicines-medications-pills-capsule-thumbnail.png": "/static/media/png-transparent-medicines-medications-pills-capsule-thumbnail.31d210b8c23fba7f2e99.png",
+    "static/media/syringe.png": "/static/media/syringe.9ad458ac30863bf99a15.png",
+    "static/media/Heart-Health.jpg": "/static/media/Heart-Health.026b935ba59b710bf5c5.jpg",
+    "static/media/png-clipart-stethoscope-medicine-heart-heart-heart-medicine.png": "/static/media/png-clipart-stethoscope-medicine-heart-heart-heart-medicine.748d9721c38a6e41e122.png",
+    "index.html": "/index.html",
+    "main.d8166296.css.map": "/static/css/main.d8166296.css.map",
+    "main.f8672898.js.map": "/static/js/main.f8672898.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8166296.css",
+    "static/js/main.f8672898.js"
+  ]
+}

@@ -1,0 +1,91 @@
+/* Hero section container */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  /* Background image */
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/medicallogo.jpg') no-repeat center center/cover;
+    filter: brightness(0.5);
+    z-index: 1;
+  }
+  
+  /* Hero content */
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Typing effect */
+  .typing-effect {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #28a745; /* Green color for text */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid rgba(255, 255, 255, 0.75); /* Cursor effect */
+    animation: typing 4s steps(40) 1s forwards, blink-caret 0.75s step-end infinite;
+  }
+  
+  /* Hero description */
+  .hero-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #dcdcdc;
+  }
+  
+  /* Button styling */
+  .contact-btn {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  /* Typing effect animation */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: rgba(255, 255, 255, 0.75); }
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .typing-effect {
+      font-size: 1.8rem;
+    }
+    .hero-description {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .typing-effect {
+      font-size: 1.5rem;
+    }
+    .hero-description {
+      font-size: 0.9rem;
+    }
+  }
+  

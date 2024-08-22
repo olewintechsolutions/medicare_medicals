@@ -1,0 +1,48 @@
+/* store.css */
+
+.content-box {
+  background-color: #f8f9fa; /* Light background for content box */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .content-box {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .content-box {
+    padding: 2rem 1.5rem;
+  }
+  
+  .content-box img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .content-box {
+    padding: 1.5rem 1rem;
+  }
+
+  .content-box img {
+    width: 80px;
+    height: 80px;
+  }
+
+  h5 {
+    font-size: 1
+  }
+}

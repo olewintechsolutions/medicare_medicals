@@ -1,0 +1,90 @@
+/* Container for the entire sliding section */
+.sliding-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container for sliding images */
+  .sliding-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+    height: 100%;
+    display: flex;
+    animation: slide 20s infinite linear;
+  }
+  
+  /* Individual images with different backgrounds */
+  .image {
+    width: 20%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .image1 { background-image: url('../images/askdoctor.jpg'); }
+  .image2 { background-image: url('../images/consult-min.jpg'); }
+
+  
+  /* Keyframes for sliding effect */
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  /* Container for the text */
+  .text-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .animated-text {
+    opacity: 0;
+    animation: fadeInUp 4s ease-out infinite;
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  /* Keyframes for text coming from bottom to top */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+  }
+  
+  /* Responsive Design Adjustments */
+  @media (max-width: 768px) {
+    .sliding-section {
+      height: 60vh;
+    }
+  
+    .animated-text {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .animated-text {
+      font-size: 1.2rem;
+    }
+  }
+  
